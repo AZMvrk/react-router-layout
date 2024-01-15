@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  padding: 10px;
+
+  border-bottom: 1px solid black;
+}
+
+header a {
+  border: 2px solid black;
+
+  padding: 10px;
+
+  color: unset;
+  text-decoration: unset;
+}
+
+header a:hover {
+  background-color: black;
+  color: white;
+}

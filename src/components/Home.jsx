@@ -4,20 +4,13 @@ import Layout from './Layout'
 function Home({ data }) {
 	return (
 		<Layout>
-			{data}
+			<h2>{data}</h2>
 
 			<p>
 				the content of home page
 			</p>
 
-			<button>self destruct</button>
-
-			<h2>my favorite drinks:</h2>
-			<ul>
-				<li>beer</li>
-				<li>wine</li>
-				<li>palinka</li>
-			</ul>
+			<button className='pointless-button'>Pointless Button</button>
 		</Layout>
 	)
 }

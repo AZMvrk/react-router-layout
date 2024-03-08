@@ -7,7 +7,7 @@ function Header() {
 			<Link to='/'>home</Link>
 			<Link to='/about'>about</Link>
 			<Link to='/contact'>contact</Link>
-			<Link to='/shavemaster'>SHAVEMASTER</Link>
+			<Link to='/shavemaster'>Animated</Link>
 		</header>
 	)
 }

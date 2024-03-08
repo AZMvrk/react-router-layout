@@ -2,28 +2,110 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 90%;
 }
 
 header {
+  width: 120%;
   display: flex;
-  gap: 20px;
   justify-content: center;
-
-  padding: 10px;
-
-  border-bottom: 1px solid black;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(21, 41, 43);
 }
-
 header a {
-  border: 2px solid black;
-
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: white;
   padding: 10px;
+  min-width: 80px;
 
-  color: unset;
+  color: rgb(21, 41, 43);
   text-decoration: unset;
 }
 
 header a:hover {
-  background-color: black;
+  background-color: rgb(0, 107, 136);
   color: white;
+}
+
+/* ------------Infinity Loading --------------- */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infinity-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.infinityStatic img{
+  max-height: 28rem;
+  border-radius: 35px;
+}
+.infinity video {
+  max-height: 28rem;
+  border: 2px solid rgba(21, 41, 43);
+  border-radius: 35px;
+}
+.infinityLoading video{
+  max-height: 28rem;
+  border-radius: 35px;
+  border: 2px solid rgba(21, 41, 43);
+}
+.infinityLoadingWithFrame {
+  border-radius: 30px;
+}
+.infinityLoadingWithFrame video {
+  max-height: 30rem;
+}
+.ring-container {
+  display: flex;
+  gap: 10px;
+}
+.loadingRing video {
+  max-height: 16rem;
+  border-radius: 5px;
+}
+.loadingRingScreen video {
+  max-height: 16rem;
+  border-radius: 5px;
+}
+
+h2{
+  padding: 10px;
+}
+h3{
+  padding: 20px;
+}
+/* ------------Infinity Loading --------------- */
+
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  
 }

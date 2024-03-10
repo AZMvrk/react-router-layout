@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Header() {
+import pixelartSelfie from '../gallery/pixelartSelfie.jpg'
+
+function Header({ lang }) {
 	return (
 		<header>
-			<Link to='/'>home</Link>
-			<Link to='/about'>about</Link>
-			<Link to='/contact'>contact</Link>
-			<Link to='/shavemaster'>Animated</Link>
+			<img className='profile-picture' src={pixelartSelfie} alt="pixelartSelfie" />
+			<Link to='/'>{ lang ? "Home" : "Kezdőlap" }</Link>
+			<Link to='/about'>{ lang ? "Pages" : "Oldalak" }</Link>
+			<Link to='/gallery'>{ lang ? "Gallery" : "Galéria" }</Link>
+			<Link to='/media'>{ lang ? "Media" : "Média" }</Link>
 		</header>
 	)
 }

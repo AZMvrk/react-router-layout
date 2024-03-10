@@ -4,9 +4,7 @@ import Layout from './Layout'
 function About({ data }) {
 	return (
 		<Layout>
-			{data}
-
-			<p>content of about</p>
+			<h2>{data}</h2>
 		</Layout>
 	)
 }

@@ -10,6 +10,7 @@ import bubble from '../media/bubble.mp4'
 import bubbleWithFrame from '../media/bubbleWithFrame.mp4'
 import bubbleWhite from '../media/bubbleWhite.mp4'
 import bubbleWhiteFrame from '../media/bubbleWhiteFrame.mp4'
+import menuBar from '../media/menuBar.mp4'
 
 
 function Media() {
@@ -56,6 +57,13 @@ function Media() {
 			</div>
 			<div className='bubbleWithFrame'>
 				<video src={bubbleWithFrame} autoPlay loop muted/>
+			</div>
+		</div>
+		<h2>Animated menu bar</h2>
+		<h3>Menu bar with icons</h3>
+		<div className='menuBar-container'>	
+			<div className='menuBar'>
+				<video src={menuBar} autoPlay loop muted/>
 			</div>
 		</div>
 		</Layout>

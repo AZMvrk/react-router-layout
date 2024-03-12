@@ -25,7 +25,7 @@ main{
   height: 90%;
 }
 
-header {
+.header {
   width: 90%;
   position: fixed;
   top: 0;
@@ -39,7 +39,7 @@ header {
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
 
 }
-header a {
+.header > a {
   display: flex;
   justify-content: center;
   border-radius: 20px;
@@ -54,11 +54,16 @@ header a {
 }
 
 .profile-picture {
-  max-height: 3rem;
-  border-radius: 100px;
+  position: fixed;
+  top: 0;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  max-height: 4rem;
 }
 
-header a:hover {
+.header a:hover {
   background-color: rgb(21, 41, 43);
   border: 2px solid white;
   border-radius: 20px;
@@ -83,6 +88,127 @@ header a:hover {
 }
 
 /* ------------ HOME --------------- */
+
+
+
+/* ------------ PAGES --------------- */
+
+a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid rgb(21, 41, 43);
+  border-radius: 20px;
+  width: fit-content;
+  
+}
+a:hover {
+  color: white;
+  background-color: rgb(21, 41, 43);
+}
+
+.todoListPage-container {
+  padding: 30px;
+  border-radius: 35px;
+  background-color: white;
+  display: flex;
+
+  box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+}
+.todoListPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+.todoListPage video {
+  max-height: 35rem;
+  border-radius: 5px;
+}
+
+.allPokemonPage-container{
+  padding: 30px;
+  border-radius: 35px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+}
+.allPokemonPage-container > div {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.allPokemonPage-container > div > img {
+  max-height: 25rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.allPokemonPageW {
+  margin-bottom: 3rem;
+}
+.bestsellers-container {
+  padding: 30px;
+  border-radius: 35px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+}
+.bestsellers {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 3rem;
+}
+.bestsellers img {
+  max-height: 25rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.rickAndMorty-container{
+  padding: 30px;
+  border-radius: 35px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+}
+
+.rickAndMorty-container > div {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.rickAndMorty-container > div > img {
+  max-height: 25rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.rickAndMortyModal {
+  margin-bottom: 3rem;
+}
+
+
+
+
+/* ------------ PAGES --------------- */
 
 
 
@@ -214,11 +340,10 @@ header a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
 }
 .bubbleWhite video{
-  max-height: 28rem;
+  max-height: 25rem;
   border-radius: 35px;
 }
 .bubble video{
@@ -232,7 +357,23 @@ header a:hover {
   max-height: 30rem;
 }
 
+.menuBar-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+}
+
+.menuBar video {
+  max-height: 30rem;
+}
+
 h2{
+  margin-top: 5%;
   padding: 10px;
 }
 h3{

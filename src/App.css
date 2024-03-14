@@ -47,19 +47,16 @@ main{
   padding-left: 40px;
   padding-right: 40px;
   min-width: 80px;
-  border: 2px solid rgb(21, 41, 43);
-  color: rgb(21, 41, 43);
+  border: 2px solid rgb(0,128,128);
+  color: rgb(0,128,128);
   text-decoration: unset;
+  font-weight: 700;
 }
 
-.profile-picture {
-  display: flex;
-  justify-content: center;
-  max-height: 10rem;
-}
+
 
 .header a:hover {
-  background-color: rgb(21, 41, 43);
+  background-color: rgb(0,128,128);
   border: 2px solid white;
   border-radius: 20px;
   color: white;
@@ -68,28 +65,64 @@ main{
 
 
 /* ------------ HOME --------------- */
+.profile-picture-container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(0,128,128);
+  margin-bottom: 10px;
+  display: flex;
+}
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  max-height: 10rem;
+  padding-bottom: 20px;
+}
+.profile-picture-mini{
+  display: flex;
+  justify-content: center;
+  max-height: 3rem;
+}
+
+.p-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
 
 .profile-container {
-  max-width: 80%;
+
   background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  gap: 35px;
   border-radius: 35px;
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
+  gap: 5px;
 }
 
-.profile-container > p {
+p {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-
+  padding: 30px;
+  width: fit-content;
+  background-color: rgba(0,128,128);
+  color: white;
+  border-radius: 45px;
+  border-end-start-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* ------------ HOME --------------- */
@@ -105,21 +138,28 @@ a {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border: 2px solid rgb(21, 41, 43);
+  border: 2px solid rgb(0,128,128);
+  color: rgb(0,128,128);
+  font-weight: 700;
   border-radius: 20px;
   width: fit-content;
   
 }
 a:hover {
   color: white;
-  background-color: rgb(21, 41, 43);
+  background-color: rgb(0,128,128);
 }
-
+#root > main > div > div.todoListPage-container > div > div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .todoListPage-container {
   padding: 30px;
   border-radius: 35px;
   background-color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
 }
@@ -129,12 +169,14 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
+
+
 .todoListPage video {
   max-height: 30rem;
   border-radius: 5px;
 }
+
 
 .allPokemonPage-container{
   padding: 30px;
@@ -211,8 +253,6 @@ a:hover {
 }
 
 
-
-
 /* ------------ PAGES --------------- */
 
 
@@ -264,7 +304,7 @@ a:hover {
   border-radius: 5px;
 }
 .drawing-container {
-  max-width: 70%;
+  max-width: 85vw;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -301,19 +341,25 @@ a:hover {
   gap: 10px;
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
 }
+.infinity-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .infinityStatic img{
   max-height: 28rem;
   border-radius: 35px;
 }
 .infinity video {
   max-height: 28rem;
-  border: 2px solid rgba(21, 41, 43);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 35px;
 }
 .infinityLoading video{
   max-height: 28rem;
   border-radius: 35px;
-  border: 2px solid rgba(21, 41, 43);
+  border: 2px solid rgb(0, 0, 0);
 }
 .infinityLoadingWithFrame {
   border-radius: 30px;
@@ -346,6 +392,12 @@ a:hover {
   align-items: center;
   box-shadow: 0px 10px 5px rgb(0, 0, 0, 0.2);
 }
+.bubble-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .bubbleWhite video{
   max-height: 25rem;
   border-radius: 35px;
@@ -373,7 +425,7 @@ a:hover {
 }
 
 .menuBar video {
-  max-height: 30rem;
+  max-height: 28rem;
 }
 
 h2{
@@ -382,18 +434,106 @@ h2{
 }
 h3{
   background-color: white;
+  color: rgb(0,128,128);
   margin-top: 5%;
   padding: 20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
 }
+
+
 /* ------------MEDIA--------------- */
 
 
 footer {
+  margin-top: 5rem;
   padding: 20px;
   display: flex;
   justify-content: center;
   
+}
+
+@media only screen and (max-width: 1150px) {
+  
+  .infinity-container{
+    flex-direction: column;
+  }
+  .bubble-container {
+    flex-direction: column;
+  }
+  .ring-container {
+    flex-direction: column;
+  }
+  .businesscard-container {
+    flex-direction: column;
+  }
+  .allPokemonPage-container > div {
+    flex-direction: column;
+  }
+  .bestsellers-container > div {
+    flex-direction: column;
+  }
+  .rickAndMorty-container > div {
+    flex-direction: column;
+  }
+  p {
+    max-width: 80vw;
+  }
+
+  img {
+    max-width: 80vw;
+  }
+  video {
+    max-width: 80vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .posts-container {
+    max-width: 90vw;
+  }
+  .advertisement-container {
+    max-width: 90vw;
+  }
+  .businesscard-container {
+    max-width: 90vw;
+  }
+  .container > div {
+    width: 90vw;
+  }
+
+  #root > main > div > div.drawing-container > img:nth-child(1) {
+    max-width: 70vw;
+  }
+  #root > main > div > div.drawing-container > img:nth-child(2) {
+    max-width: 70vw;
+  }
+  .infinity-container > div {
+    flex-direction: column;
+  }
+  .bubble-container > div {
+    flex-direction: column;
+  }
+  
+  .header a {
+    width: fit-content;
+    padding: 5px;
+  }
+
+  h2{
+    margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header{
+    width: 90vw;
+    gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header {
+    width: 95vw;
+   
+  }
 }

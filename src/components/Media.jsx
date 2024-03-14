@@ -19,19 +19,23 @@ function Media() {
 		<Layout>
 		<h2>Animated loading screens</h2>
 		<h3>Infinity Loading</h3>
-		<div className='infinity-container'>	
-			<div className='infinityStatic'>
-				<img src={infinityStatic} alt="Infinity Static" />
+		<div className='infinity-container'>
+			<div>
+				<div className='infinityStatic'>
+					<img src={infinityStatic} alt="Infinity Static" />
+				</div>
+				<div className='infinity'>
+					<video src={infinity} autoPlay loop muted/>
+				</div>
 			</div>
-			<div className='infinity'>
-				<video src={infinity} autoPlay loop muted/>
-			</div>
-			<div className='infinityLoading'>
-				<video src={infinityLoading} autoPlay loop muted/>
-			</div>
-			<div className='infinityLoadingWithFrame'>
-				<video src={infinityLoadingWithFrame} autoPlay loop muted/>
-			</div>
+			<div>
+				<div className='infinityLoading'>
+					<video src={infinityLoading} autoPlay loop muted/>
+				</div>
+				<div className='infinityLoadingWithFrame'>
+					<video src={infinityLoadingWithFrame} autoPlay loop muted/>
+				</div>
+			</div>	
 		</div>
 	
 		<h3>Ring Loading</h3>
@@ -46,17 +50,21 @@ function Media() {
 		
 		<h3>Bubble Loading</h3>
 		<div className='bubble-container'>	
-			<div className='bubbleWhite'>
-				<video src={bubbleWhite} autoPlay loop muted/>
+			<div>
+				<div className='bubbleWhite'>
+					<video src={bubbleWhite} autoPlay loop muted/>
+				</div>
+				<div className='bubbleWhiteFrame'>
+					<video src={bubbleWhiteFrame} autoPlay loop muted/>
+				</div>
 			</div>
-			<div className='bubbleWhiteFrame'>
-				<video src={bubbleWhiteFrame} autoPlay loop muted/>
-			</div>
-			<div className='bubble'>
-				<video src={bubble} autoPlay loop muted/>
-			</div>
-			<div className='bubbleWithFrame'>
-				<video src={bubbleWithFrame} autoPlay loop muted/>
+			<div>
+				<div className='bubble'>
+					<video src={bubble} autoPlay loop muted/>
+				</div>
+				<div className='bubbleWithFrame'>
+					<video src={bubbleWithFrame} autoPlay loop muted/>
+				</div>
 			</div>
 		</div>
 		<h2>Animated menu bar</h2>

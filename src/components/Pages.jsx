@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from './Layout'
 
+import pixelartSelfieRound from '../gallery/pixelartSelfieRound.png'
+
 import todoListPage from '../pages/todoListPage.mp4'
 import todoListPageResponsive from '../pages/todoListPageResponsive.mp4'
 
@@ -26,11 +28,15 @@ import pokeApi from '../pages/pokeApi.png'
 function Pages({ data }) {
 	return (
 		<Layout>
-			<h2>{data}</h2>
+			<h2>Frontend course & my own projects</h2>
 			<h3>To do list page</h3>
 			<div className='todoListPage-container'>	
 				<div className='todoListPage'>
 					<video src={todoListPage} autoPlay loop muted/>
+					<div className='p-div'>
+						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+						<p>This is a prototype page where i used Google Firebase for authentication and store the data <br></br>separated by the registered users. </p>
+					</div>
 					<video src={todoListPageResponsive} autoPlay loop muted/>
 				</div>
 			</div>

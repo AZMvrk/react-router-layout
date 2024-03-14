@@ -23,7 +23,7 @@ import DSC0205 from '../gallery/DSC0205.JPG'
 function Gallery({ data }) {
 	return (
 		<Layout>
-			<h2>{data}</h2>
+			<h2>Commissions</h2>
 			<h3>Posts</h3>
 			<div className='posts-container'>
 				<img src={kellemes} alt="kellemes" />
@@ -42,6 +42,7 @@ function Gallery({ data }) {
 				<img src={napfenyfotoLogo} alt="napfenyfotoLogo" />
 				<img src={NFSFullneonBlack} alt="NFSFullneonBlack" />
 			</div>
+			<h2>Hobby & School</h2>
 			<h3>Drawing & Painting</h3>
 			<div className='drawing-container'>
 				<img src={leopardGecko} alt="leopardGecko" />

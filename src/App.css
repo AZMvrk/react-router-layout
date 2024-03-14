@@ -454,7 +454,7 @@ footer {
   
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1175px) {
   
   .infinity-container{
     flex-direction: column;

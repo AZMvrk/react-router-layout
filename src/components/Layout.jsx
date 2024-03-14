@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-import pixelartSelfieRound from '../gallery/pixelartSelfieRound.png'
 
 function Layout({ children }) {
 
@@ -13,7 +12,6 @@ function Layout({ children }) {
 	return (
 		<main>
 			<Header lang={lang} />
-			<img className='profile-picture' src={pixelartSelfieRound} alt="pixelartSelfie" />
 
 			{/* <button onClick={() => setLang(!lang) }>{lang ? "ENG" : "HUN"}</button> */}
 

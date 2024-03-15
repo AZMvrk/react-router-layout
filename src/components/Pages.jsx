@@ -32,16 +32,24 @@ function Pages({ data }) {
 			<h3>To do list page</h3>
 			<div className='todoListPage-container'>	
 				<div className='todoListPage'>
+					<div className='p-div'>
+						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+						<p>This is a prototype page where I used Google Firebase for authentication and store the data <br></br>separated by the registered users. </p>
+					</div>
 					<video src={todoListPage} autoPlay loop muted/>
 					<div className='p-div'>
 						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-						<p>This is a prototype page where i used Google Firebase for authentication and store the data <br></br>separated by the registered users. </p>
+						<p>I aimed to create a user friendly page therefore I made it to be responsive so it could be used <br></br>on any device, just like the page that you're looking at now. </p>
 					</div>
 					<video src={todoListPageResponsive} autoPlay loop muted/>
 				</div>
 			</div>
 			<h3>All Pokemon page</h3>
-			<div className='allPokemonPage-container'>	
+			<div className='allPokemonPage-container'>
+				<div className='p-div'>
+						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+						<p>This page is created with MUI. It has a dark and a light theme and an automatic LOAD MORE <br></br>button that is triggered by scrolling down.  </p>
+					</div>	
 				<div className='allPokemonPageD'>
 				 <img src={allPokemonDResp} alt="allPokemonDResp" /> 
 				 <img src={allPokemonD} alt="allPokemonD" /> 
@@ -54,6 +62,10 @@ function Pages({ data }) {
 			</div>
 			<h3>Pokémon App page</h3>
 			<div className='allPokemonPage-container'>	
+				<div className='p-div'>
+					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+					<p>This is a pokémon app. You can select a location, then a pokemon will appear randomly<br></br> and after you have chosen one of your own pokenoms and defeated the enemy pokemon,<br></br> it will be yours.</p>
+				</div>	
 				<div className='allPokemonPageD'>
 				 <img src={pokeApiLocationsM} alt="allPokemonDResp" /> 
 				 <img src={pokeApiLocations} alt="allPokemonD" /> 
@@ -65,7 +77,11 @@ function Pages({ data }) {
 				<a href="https://azmvrk.github.io/React-PokeApi/">Go to this page !</a>
 			</div>
 			<h3>New York Times bestsellers page</h3>
-			<div className='bestsellers-container'>	
+			<div className='bestsellers-container'>
+				<div className='p-div'>
+					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+					<p>It's just a simple page, the essence of its creation was to meet the appearance requirements<br></br> imposed on it. </p>
+				</div>	
 				<div className='bestsellers'>
 				 <img src={bestsellersM} alt="bestsellersM" /> 
 				 <img src={bestsellers} alt="bestsellers" /> 
@@ -74,6 +90,10 @@ function Pages({ data }) {
 			</div>
 			<h3>Rick and Morty page</h3>
 			<div className='rickAndMorty-container'>	
+				<div className='p-div'>
+					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
+					<p>This Rick & Morty page that brings you the characters from the cartoon, if you click on them<br></br> you'll see some more information.</p>
+				</div>	
 				<div className='rickAndMorty'>
 				 <img src={rickAndMortyM} alt="rickAndMortyM" /> 
 				 <img src={rickAndMorty} alt="rickAndMorty" /> 

@@ -17,15 +17,15 @@ function Home({ data }) {
 
 				<div className='p-div'>
 				<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-					<p>I'm glad to welcome you on this site, where I can share my work and experiences in frontend development, graphics, and animation with you. I am Zoltán Márk Antal, an enthusiastic junior frontend developer and creative mind who has always been drawn to the exciting possibilities of the digital world.</p>
+					<p>I'm glad to welcome you on this site, where I can share my work and experiences in frontend development, graphics, and animation with you. I am Zoltán Márk Antal, an enthusiastic junior frontend developer with a creative mind who has always been drawn to the exciting possibilities of the digital world.</p>
 				</div>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-					<p>The purpose of why I created this site is to gather and show my previous works in one place, even if these projects and creations come from a little different fields, including frontend development, graphics and animation. Furthermore this site itself serves as a showcase of one of my best project that I made by myself, and I really hope you will enjoy browsing through it!</p>
+					<p>I created this site is to gather and show my previous works in one place, even if these projects and creations come from a little different fields, including frontend development, graphics and animation. Furthermore this site itself serves as a showcase of one of my best projects that I made by myself, and I really hope you will enjoy browsing through it!</p>
 				</div>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-					<p>It is important to me that the site is easy to navigate and that the content is easily accessible. On the "Pages" section, you will find websites I created during my frontend developer course and after that, while the "Gallery" showcases images from my previous graphic design commissions and from school, and there is the "Media" section, where you'll find some animated stuff.</p>
+					<p>It is important to me that the site is easy to navigate and that the content is easily accessible. On the "Pages" section, you will find websites I have created during and since my frontend developer course, while the "Gallery" showcases images from my previous graphic design commissions. This pages also contains works that i created in school, and there is the "Media" section, where you'll find some animated stuff.</p>
 				</div>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />

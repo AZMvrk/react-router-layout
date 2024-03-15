@@ -83,14 +83,19 @@ main{
 .profile-picture-mini{
   display: flex;
   justify-content: center;
-  max-height: 3rem;
+  max-height: 3rem !important;
+  border: 0 !important;
 }
 
 .p-div {
   display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-end !important;
   gap: 10px;
+  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .profile-container {
@@ -456,6 +461,7 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: center;
+  text-align: center;
   
 }
 

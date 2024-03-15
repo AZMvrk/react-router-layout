@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
 	return (
-		<footer>Portfolio | Zoltán Márk Antal | 2024</footer>
+		<footer>LinkedIn: Zoltán Márk Antal | GitHub: AZMvrk | e-mail: zotyaa95@gmail.com <br></br> Portfolio of Zoltán Márk Antal 2024</footer>
 	)
 }
 

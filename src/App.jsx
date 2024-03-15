@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState("Under Construction...")
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home data={data} />} />  {/* 👈 Renders at /app/ */}
         <Route path='/pages' element={<Pages data={data} />} />

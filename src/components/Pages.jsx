@@ -36,12 +36,12 @@ function Pages({ data }) {
 						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
 						<p>This is a prototype page where I used Google Firebase for authentication and store the data <br></br>separated by the registered users. </p>
 					</div>
-					<video src={todoListPage} autoPlay loop muted/>
+					<video src={todoListPage} autoPlay loop muted playsInline/>
 					<div className='p-div'>
 						<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
 						<p>I aimed to create a user friendly page therefore I made it to be responsive so it could be used <br></br>on any device, just like the page that you're looking at now. </p>
 					</div>
-					<video src={todoListPageResponsive} autoPlay loop muted/>
+					<video src={todoListPageResponsive} autoPlay loop muted playsInline/>
 				</div>
 			</div>
 			<h3>All Pokemon page</h3>
@@ -64,7 +64,7 @@ function Pages({ data }) {
 			<div className='allPokemonPage-container'>	
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-					<p>This is a pokémon app. You can select a location, then a pokemon will appear randomly<br></br> and after you have chosen one of your own pokenoms and defeated the enemy pokemon,<br></br> it will be yours.</p>
+					<p>This is a pokémon app. You can select a location, then a pokemon will appear randomly<br></br> and after you have chosen one of your own pokemons and defeated the enemy pokemon,<br></br> it will be yours.</p>
 				</div>	
 				<div className='allPokemonPageD'>
 				 <img src={pokeApiLocationsM} alt="allPokemonDResp" /> 

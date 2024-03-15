@@ -25,15 +25,15 @@ function Media() {
 					<img src={infinityStatic} alt="Infinity Static" />
 				</div>
 				<div className='infinity'>
-					<video src={infinity} autoPlay loop muted/>
+					<video src={infinity} autoPlay loop muted playsInline/>
 				</div>
 			</div>
 			<div>
 				<div className='infinityLoading'>
-					<video src={infinityLoading} autoPlay loop muted/>
+					<video src={infinityLoading} autoPlay loop muted playsInline/>
 				</div>
 				<div className='infinityLoadingWithFrame'>
-					<video src={infinityLoadingWithFrame} autoPlay loop muted/>
+					<video src={infinityLoadingWithFrame} autoPlay loop muted playsInline/>
 				</div>
 			</div>	
 		</div>
@@ -41,10 +41,10 @@ function Media() {
 		<h3>Ring Loading</h3>
 		<div className='ring-container'>
 			<div className='loadingRing'>
-				<video src={loadingRing} autoPlay loop muted/>
+				<video src={loadingRing} autoPlay loop muted playsInline/>
 			</div>
 			<div className='loadingRingScreen'>
-				<video src={loadingRingScreen} autoPlay loop muted/>
+				<video src={loadingRingScreen} autoPlay loop muted playsInline/>
 			</div>
 		</div>
 		
@@ -52,18 +52,18 @@ function Media() {
 		<div className='bubble-container'>	
 			<div>
 				<div className='bubbleWhite'>
-					<video src={bubbleWhite} autoPlay loop muted/>
+					<video src={bubbleWhite} autoPlay loop muted playsInline/>
 				</div>
 				<div className='bubbleWhiteFrame'>
-					<video src={bubbleWhiteFrame} autoPlay loop muted/>
+					<video src={bubbleWhiteFrame} autoPlay loop muted playsInline/>
 				</div>
 			</div>
 			<div>
 				<div className='bubble'>
-					<video src={bubble} autoPlay loop muted/>
+					<video src={bubble} autoPlay loop muted playsInline/>
 				</div>
 				<div className='bubbleWithFrame'>
-					<video src={bubbleWithFrame} autoPlay loop muted/>
+					<video src={bubbleWithFrame} autoPlay loop muted playsInline/>
 				</div>
 			</div>
 		</div>
@@ -71,7 +71,7 @@ function Media() {
 		<h3>Menu bar with icons</h3>
 		<div className='menuBar-container'>	
 			<div className='menuBar'>
-				<video src={menuBar} autoPlay loop muted/>
+				<video src={menuBar} autoPlay loop muted playsInline/>
 			</div>
 		</div>
 		</Layout>

@@ -540,6 +540,10 @@ footer {
     width: 90vw;
     gap: 5px;
   }
+  .p-div {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (max-width: 420px) {

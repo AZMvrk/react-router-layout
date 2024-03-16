@@ -76,7 +76,7 @@ function Pages({ data }) {
 				</div>
 				<a href="https://azmvrk.github.io/React-PokeApi/">Go to this page !</a>
 			</div>
-			<h3>New York Times bestsellers page</h3>
+			<h3>Bestsellers page</h3>
 			<div className='bestsellers-container'>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />

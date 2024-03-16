@@ -65,6 +65,8 @@ main{
 
 
 
+
+
 /* ------------ HOME --------------- */
 .profile-picture-container{
   width: 100%;
@@ -129,6 +131,10 @@ p {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+p:hover {
+  cursor: default;
 }
 
 /* ------------ HOME --------------- */
@@ -451,7 +457,12 @@ h3{
   border-top-right-radius: 20px;
   box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
 }
-
+ h2:hover {
+  cursor: default;
+ }
+ h3:hover {
+  cursor: default;
+ }
 
 /* ------------MEDIA--------------- */
 
@@ -460,9 +471,48 @@ footer {
   margin-top: 5rem;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts > a {
+  border: 0;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  align-items: center;
+  text-shadow:  0px 10px 5px rgb(0, 0, 0, 0.3);
+}
+
+.contacts > a:hover {
+  background-color: rgba(0, 128, 128, 0.5);
+}
+
+b {
+  padding: 5px;
+  border: 0;
+  text-shadow:  0px 10px 5px rgb(0, 0, 0, 0.3);
+}
+b:hover{
+  cursor: default;
+}
+
+.portfolioOf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1175px) {

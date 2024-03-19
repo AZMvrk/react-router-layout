@@ -21,7 +21,7 @@ function Home({ data }) {
 				</div>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />
-					<p>I created this site is to gather and show my previous works in one place, even if these projects and creations come from a little different fields, including frontend development, graphics and animation. Furthermore this site itself serves as a showcase of one of my best projects that I made by myself, and I really hope you will enjoy browsing through it!</p>
+					<p>I created this site to gather and show my previous works in one place, even if these projects and creations come from a little different fields, including frontend development, graphics and animation. Furthermore this site itself serves as a showcase of one of my best projects that I made by myself, and I really hope you will enjoy browsing through it!</p>
 				</div>
 				<div className='p-div'>
 					<img className='profile-picture-mini' src={pixelartSelfieRound} alt="pixelartSelfie" />

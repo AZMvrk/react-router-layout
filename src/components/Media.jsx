@@ -1,15 +1,19 @@
 import React from 'react'
 import Layout from './Layout'
+
 import infinityLoadingWithFrame from '../media/infinityLoadingWithFrame.mp4'
 import infinityLoading from '../media/infinityLoading.mp4'
 import infinity from '../media/infinity.mp4'
 import infinityStatic from '../media/infinityStatic.jpg'
+
 import loadingRing from '../media/loadingRing.mp4'
 import loadingRingScreen from '../media/loadingRingScreen.mp4'
+
 import bubble from '../media/bubble.mp4'
 import bubbleWithFrame from '../media/bubbleWithFrame.mp4'
 import bubbleWhite from '../media/bubbleWhite.mp4'
 import bubbleWhiteFrame from '../media/bubbleWhiteFrame.mp4'
+
 import menuBar from '../media/menuBar.mp4'
 
 
